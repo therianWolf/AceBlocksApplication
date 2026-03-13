@@ -1,0 +1,64 @@
+            body {
+                    background-color: #2A2D36
+                    
+                }
+            .navBar {
+                    display: flex;
+                    align-items: center;
+                    gap: 3rem
+                    }
+
+            a {
+                color: #3D87FF;
+                text-decoration: none;
+            }
+
+            /* center the page title */
+            .title {
+                display: block;
+                text-align: center;
+
+                }
+            
+
+            .title h1 {
+                margin: 0;
+                font-size: 3rem;
+                color: #3D87FF;
+                text-shadow: 0 0 8px #0fccFF;
+                font-family: "Y224", "Orbitron", "Consolas", monospace;
+            }
+
+            @font-face {
+            font-family: 'Y224'; /* Choose a name for your font */
+            src: url('Y224-2vdae.ttf') format('truetype'),
+            }
+
+
+            div {
+                margin: 24px auto;
+                background-color: #2A2D36;
+                background-image: linear-gradient(145deg, rgba(58,62,72,0.2) 0%, rgba(42,45,54,0.3) 100%), linear-gradient(225deg, rgba(58,62,72,0.1) 0%, rgba(42,45,54,0.2) 100%);
+                background-blend-mode: overlay;
+                    
+                padding: 20px 30px;
+                border-radius: 12px;
+                color: #3D87FF;
+                font-family: "Y224", "Orbitron", "Consolas", monospace;
+
+                /* holographic border */
+                border: 2px solid #00E5FF;
+                box-shadow: 0 0 12px #00E5FF, inset 0 0 18px #00E5FF55;
+
+                /* subtle inner glow */
+                text-shadow: 0 0 8px #FFF;
+                position: relative;
+                overflow: hidden;
+            }
+
+
+            .story, .explore, .build, .evolving, .important{
+                color: #FFF;
+                font-family: "Y224", "Orbitron", "Consolas", "monospace";
+                text-align: center;
+            }
